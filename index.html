@@ -6,37 +6,44 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <h1 id="heading">Hi</h1> -->
-
-    <!-- <input type="button" value="+" onclick="changeHeading()">
-    
-    <input type="button" value= "-" onclick="decrement()">
-    <br><br> -->
-    <!-- <input type="text" placeholder="input here" id="inputText">
-    <input type="button" value="click me" onclick="changeHeading()"> -->
-<!-- 
-    <input type="text" placeholder="n1" id="txtinput01">
-    <input type="text" placeholder="n2" id="txtinput02">
-    <br><br>
-    <h1 id="heading">output</h1>
-    <br><br>
+    <!-- <input type="number" placeholder="Enter Number 01" id="txtInput01">
+    <input type="number" placeholder="Enter Number 02" id="txtInput02">
+    <h1 id="heading">Output</h1>
     <input type="button" value="+" onclick="btnSumOnAction()">
-    <input type="button" value="-" onclick="subtraction">
- -->
+    <input type="button" value="-" onclick="changeHeading()"> -->
 
-    <h1>Add Customer</h1>
+    <!-- <input type="button" value="+" onclick="increaseValue()">
+    <input type="button" value="-" onclick="decreaseValue()"> -->
+
+
+    <!-- ---------------------------------- -->
+
+    <h1>Customer Manager</h1>
+
+    <input type="text" placeholder="name" id="txtName">
     <br><br>
-    <input type="text" placeholder="Name" id="txtName">
+    <input type="text" placeholder="address" id="txtAddress">
     <br><br>
-    <input type="text" placeholder="Address" id="txtAddress">
+    <input type="text" placeholder="age" id="txtAge">
     <br><br>
-    <input type="text" placeholder="Age" id="txtAge">
+    <input type="text" placeholder="email" id="txtEmail">
     <br><br>
-    <input type="text" placeholder="Email" id="txtEmail">
+    <input type="text" placeholder="salary" id="txtSalary">
     <br><br>
-    <input type="text" placeholder="Salary" id="txtSalary">
+    <input type="button" value="Add Customer" onclick="btnAddCustomerOnAction()">
     <br><br>
-    <input type="button"  value="Add Customer" onclick="btnCustomerOnAction()">
+    <table border="1" id="tblCustomers">
+        <tr>
+            <td>Name</td>
+            <td>Address</td>
+            <td>Age</td>
+            <td>Email</td>
+            <td>Salary</td>
+        </tr>
+    </table>
+    <br><br>
+    <input type="button" value="Load Table" onclick="loadTable()">
+
 
     <script src="js\app.js"></script>
 </body>
