@@ -72,3 +72,9 @@
 
 document.write("<h1>hi</h1>");
 console.log(document.title);
+console.log(Document);
+
+let heading = document.getElementById("heading");
+console.log(heading);
+heading.innerText = "Kumara"
+
