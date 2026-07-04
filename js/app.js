@@ -70,11 +70,45 @@
 
 // DOM( Document Object Modle) Management---------
 
-document.write("<h1>hi</h1>");
-console.log(document.title);
-console.log(Document);
+// document.write("<h1>hi</h1>");
+// console.log(document.title);
+// console.log(Document);
 
-let heading = document.getElementById("heading");
-console.log(heading);
-heading.innerText = "Kumara"
+// let heading = document.getElementById("heading");
+// console.log(heading);
+// heading.innerText = "Kumara";
 
+
+// let number = 0;
+
+// function changeHeading() {
+//     heading.innerText = "Kumara" + number;
+//     number+=1;
+//     console.log("clicked");
+// }
+
+// function increment() {
+//     heading.innerText = "Kumara" + number;
+//     number+=1;
+// }
+
+// function decrement(){
+//     heading.innerText = "Kumara" + number;
+//     number-=1;
+// }
+
+// function changeHeading(){
+//     let inputText = document.getElementById("inputText");
+//     let value = console.log(inputText.value);
+//     let heading = document.getElementById("")
+// }
+
+// 
+
+let customerList = [];
+
+function btnCustomerOnAction() {
+    let txtName = document.getElementById("")
+
+
+}
