@@ -142,3 +142,11 @@ function loadTable(){
     console.log(tblCustomers);
     
 }
+
+let x = 0;
+
+function addNumber() {
+    test.innerText = "ME" + x;
+    x+=1;
+    
+}
