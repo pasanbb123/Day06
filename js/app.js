@@ -150,3 +150,9 @@ function addNumber() {
     x+=1;
     
 }
+
+function subbNumber() {
+    test.innerText = "ME" + x;
+    x-=1;
+    
+}
